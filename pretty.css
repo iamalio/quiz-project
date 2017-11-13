@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Exo+2|Fjalla+One');
+
+/*
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Exo 2', sans-serif;
+*/
+
+body {
+    background-color: #669999;
+}
+.hr1 {
+    margin-bottom: 20px;
+}
+.hr2 {
+    margin-top: 30px;
+}
+.frame {
+    width: 700px;
+    height: 750px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid #cbcbcb;
+   
+}
+
+.frame h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: #809fff;
+    font-size: 60px;
+    text-align: center;
+    color: #997300;
+    padding: 2px 0px;
+    border-radius: 15px;
+}
+
+#score {
+    color: #5A6772;
+    text-align: center;
+    font-size: 50px;
+}
+
+.frame #question {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 30px;
+    color: #4d0000;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    font-family: 'Exo 2', sans-serif;
+    display: block;
+    background-color: #ffff99;
+    width: 675px;
+    font-size: 20px;
+    color: #000033;
+    border: 3px solid #1D3C6A;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 3px 3px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #57636e;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#progress {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #000033;
+    font-size: 22px;
+}
